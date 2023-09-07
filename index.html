@@ -10,52 +10,57 @@
 </head>
 <body>
   <!-- Sign-up form start -->
-  <section class="w-screen h-full bg-gray-900  font-roboto flex justify-center items-center">
+  <div class=" font-roboto  overflow-hidden flex flex-col  justify-center items-center bg-gray-900 min-h-screen ">
 
-  <div class=" w-80  h-full bg-white ">
-      <img src="assets/images/illustration-sign-up-mobile.svg" >
+  <div class="   md:flex md:flex-row-reverse md:border md:border-white md:shadow-lg md:rounded-lg  bg-white  md:w-7/12 md:space-x-3  items-center">
+<div class="block sm:hidden w-full"><img src="assets/images/illustration-sign-up-mobile.svg"  ></div>
+      
+    <div class="hidden sm:block w-fit "><img src="assets/images/illustration-sign-up-desktop.svg" ></div>
 
-          <h1 class="font-normal text-5xl text-gray-900 mt-7 ml-3 " >Stay updated!</h1>
+          <div class="mt-4">
+            <h1 class="md:font-bold font-normal text-5xl text-gray-900 mt-7 ml-2 " >Stay updated!</h1>
 
-        <P class="font-normal text-xl text-grey-200 my-6 ml-3">
+        <P class=" font-medium md:text-lgtext-base text-gray-900 my-6 ml-3">
           Join 60,000+ product managers receiving monthly updates on:
         </P>
-      <div class="font-normal text-lg text-gray-900">
-      <div class=" m-5">
-       <img src="assets/images/icon-list.svg" alt="img" class="mr-10"><span class=" ml-25 mb-10">Product discovery and building what matters</span>
+      <div class="flex flex-col space-x-3  text-base text-gray-900">
+      <div class="flex ml-3 mb-2">
+        <img src="assets/images/icon-list.svg" alt="img" class="mb-4">
+       <p class=" ml-3">Product discovery and building what matters</p>
       </div>
       
-      <div class="m-7">
-        <img src="assets/images/icon-list.svg" alt="img">
-        <p>Measuring to ensure updates area success</p>
+      <div class="flex mb-3">
+        <img src="assets/images/icon-list.svg" alt="img" class="mb-4">
+        <p class=" ml-3">Measuring to ensure updates area success</p>
       </div>
-      <div class="m-7">
+      <div class="flex mb-3">
         <img src="assets/images/icon-list.svg" alt="img">
-        <p>And much more!</p>
+        <p class=" ml-3">And much more!</p>
       </div>
       </div>
       
       <form class="form" action="success.html" method="GET">
-      <div class="m-5">
+      <div class="mb-3 mt-3 ml-5">
         <label for="email" class="text-dark-slate-gray  text-lg font-semibold">Email address</label>
-       <!--<label
+      <!---- <label
           for="invalid"
+          class="text-dark-slate-gray  text-lg font-semibold text"
           id="test"
-          >Valid email required</label>--> 
+          >Valid email required</label>-->
       </div>
       <input
         type="email"
         placeholder="email@company.com"
         name="email"
         id="email"
-       class=" text-black border-gray-200 border text-lg p-3 rounded ml-5 my-8"
+       class=" text-black border-gray-200 border text-lg p-2 rounded ml-5 mb-3 md:ml-3 "
           autoComplete="off"
         required
       />
       
-      <button class="lg:text-base text-lg hover-gradient bg-gray-900 p-3 rounded-lg outline-none border-none text-white m-5 my-5" type="submit">Subscribe to monthly newsletter</button>
+      <button class="lg:text-base text-lg hover-gradient bg-gray-900 p-2 rounded-lg outline-none border-none text-white ml-5 md:mb-7 " type="submit">Subscribe to monthly newsletter</button>
       </form>
-        
+          </div>
   </div>
 <!--
   <div class="attribution">
@@ -63,7 +68,7 @@
     Coded by <a href="#">Tuke Glory</a>.
   </div>--->
 
-</section>
+</div>
 </body>
   <!-- Sign-up form end -->
   
