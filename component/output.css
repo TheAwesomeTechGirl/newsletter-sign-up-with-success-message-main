@@ -700,10 +700,6 @@ video {
   margin-bottom: 1.75rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -738,10 +734,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.ml-28 {
-  margin-left: 7rem;
 }
 
 .box-border {
@@ -2533,28 +2525,12 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:m-28 {
-    margin: 7rem;
-  }
-
   .md\:mb-7 {
     margin-bottom: 1.75rem;
   }
 
   .md\:ml-3 {
     margin-left: 0.75rem;
-  }
-
-  .md\:ml-28 {
-    margin-left: 7rem;
-  }
-
-  .md\:ml-40 {
-    margin-left: 10rem;
-  }
-
-  .md\:mr-28 {
-    margin-right: 7rem;
   }
 
   .md\:flex {
